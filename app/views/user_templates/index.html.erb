@@ -1,6 +1,4 @@
-class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
-  <html>
+<html>
   <body>
   
   <ul>
@@ -26,7 +24,22 @@ class ApplicationRecord < ActiveRecord::Base
       <a href="/user_sign_up">
         Sign up
       </a>
+      </ul>
     </li>
+    
+    <h1>List of users</h1>
+
+<table border="1">
+<th>
+Username
+</th>
+
+<th>
+Private?
+</th>
+
+<th>
+<a href= "/users/:username">
+</th>
     </body>
     </html>
-end
